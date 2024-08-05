@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="simon-game">
+        <h1>Simon Says</h1>
+        <div id="simon-container" style="text-align: center;" >
+            <div class="color" type="button" id="green" onclick="playerClick('green')"></div>
+            <div class="color" type="button" id="red" onclick="playerClick('red')"></div>
+            <div class="color" type="button" id="yellow" onclick="playerClick('yellow')"></div>
+            <div class="color" type="button" id="blue" onclick="playerClick('blue')"></div>
+        </div>
+        <button onclick="startSimon()">Start Game</button>
+    </div>
+    <script src="simon.js"></script>
+</body>
+</html>
